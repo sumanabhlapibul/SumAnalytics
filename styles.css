@@ -9,8 +9,9 @@ body {
 	padding-left : 20px;
 }  
 	
-h1, h2, h3 {
-	font-family: "Audiowide", "Sofia", sans-serif;
+	
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Fahkwang", "Audiowide", "Sofia", sans-serif;
 	}
 	
 footer {
@@ -19,10 +20,21 @@ footer {
 }
 
 img {  
-max-width: 50%;  
+max-width: 100%;
 height: auto;  
 } 
 
+
+.nav-img {
+	height :auto;
+	width:5%
+}
+
+.nav-txt {
+	width : 80%;
+	height: auto; 
+	
+}
 .center {
   display: block;
   margin-left: auto;
