@@ -1,12 +1,8 @@
 body {
-  padding: 50px 0px 0px 0px;
-  z-index: 0; }
-
-body {
   background-color: lightblue;
 	font-family:  "Fahkwang", sans-serif;
-	margin-left: 150px;
-	padding-left : 20px;
+	padding:20px 0px 0px 0px;
+  z-index: 0;
 }  
 	
 	
@@ -16,15 +12,32 @@ h1, h2, h3, h4, h5, h6 {
 	
 footer {
 	font-family:  "Lato", "Audiowide", "Sofia", sans-serif;
-
+  margin: 15px auto;
+  padding: 20px 0px 20px 0px;
 }
 
-img {  
-max-width: 100%;
-height: auto;  
+img { 
+  width: 100%;
+  height: auto;  
 } 
 
+jumbotron {
+  padding:30px 30px 70px 30px;
+  margin:0px auto;
+  height : 180px;
+}
 
+address{
+  font-size:80%;
+  margin:0px;
+  color:#0f0f0f;
+}
+
+
+.nav-tabs {
+  padding:30px 30px 70px 30px;
+
+}
 .nav-img {
 	height :auto;
 	width:5%
@@ -57,7 +70,7 @@ height: auto;
 }
 .jumbotron {
   margin: 0px auto;
-  padding: 60px 20px;
+  padding: 80px 20px;
   color: #130F40; }
 
 .nav-link {
