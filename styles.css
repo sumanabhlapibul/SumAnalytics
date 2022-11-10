@@ -10,6 +10,15 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Fahkwang", "Audiowide", "Sofia", sans-serif;
 	}
 	
+h1 {
+    position: relative;
+    overflow: hidden;
+    border-right: 2px solid hsl(0, 0%, 80%);
+    white-space: nowrap;
+    animation: typewriter 4s steps(44) 1s 1 normal both,
+      blinkTextCursor 500ms infinite;
+  }
+
 footer {
 	font-family:  "Lato", "Audiowide", "Sofia", sans-serif;
   margin: 15px auto;
@@ -82,4 +91,31 @@ max-width: 18%;
 height: auto;  
 }
 
+@keyframes shine {
+  0% {
+    background-position: 0;
+  }
+  60% {
+    background-position: 600px;
+  }
+  100% {
+    background-position: 600px;
+  }
+}
 
+@keyframes typewriter {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes blinkTextCursor {
+  from {
+    border-right-color: hsl(0, 0%, 80%);
+  }
+  to {
+    border-right-color: transparent;
+  }
+}
