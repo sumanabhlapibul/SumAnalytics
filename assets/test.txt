@@ -1,1 +1,9 @@
-test create a folder /.
+Experiments carried out in psychology show that data usage has 
+a strong factor of reading and interpreting skills as well — when the numerical data 
+are presented in context or are already “framed” (Kahneman & Tversky, 1984) not 
+only the ability for mathematical calculations is needed. The receiver should be able 
+to recognize attempts to “lie with statistics” (Huff, 1954).test create a folder /.
+
+ (1) to 
+find the data, (2) to evaluate the data quality, (3) to interpret the data in the context, and (4) to present the data by journalistic means, (5) taking into account the 
+needs and capacities of reception by the audiences. 

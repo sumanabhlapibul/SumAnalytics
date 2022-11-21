@@ -10,7 +10,7 @@ h1, h2, h3, h4, h5, h6 {
 	font-family: "Fahkwang", "Audiowide", "Sofia", sans-serif;
 	}
 	
-h1 {
+.h11 {
     position: relative;
     overflow: hidden;
     border-right: 2px solid hsl(0, 0%, 80%);
@@ -29,12 +29,6 @@ img {
   width: 100%;
   height: auto;  
 } 
-
-jumbotron {
-  padding:30px 30px 70px 30px;
-  margin:0px auto;
-  height : 180px;
-}
 
 address{
   font-size:80%;
@@ -81,6 +75,7 @@ address{
   margin: 0px auto;
   padding: 80px 20px;
   color: #130F40; }
+
 
 .nav-link {
 	color : #1E3C52;
