@@ -36,6 +36,16 @@ address{
   color:#0f0f0f;
 }
 
+.bg-text {
+  background-color: rgba(170, 170, 170, 0.5);
+}
+
+.nav-item:hover { 
+  color:darkblue; 
+  font-weight: bold;
+  border-bottom: 2px solid #c3c3e5;
+}
+
 
 .nav-tabs {
   padding:30px 30px 70px 30px;
@@ -84,6 +94,19 @@ address{
 .navbar-brand{
 max-width: 18%;  
 height: auto;  
+}
+
+.accordion-button:not(.collapsed)  {
+  background-color: darkcyan;
+  color: white;
+}
+
+.collapsed {
+  background-color: darkcyan;
+
+}
+.accordion-item {
+  background-color:lightgrey;
 }
 
 @keyframes shine {
